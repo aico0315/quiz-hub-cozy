@@ -3,48 +3,48 @@
 }
 
 :root {
-  --bg-app: #f9fafb;
+  --bg-app: #faf7f2;
   --bg-card: #ffffff;
-  --bg-subtle: #f3f4f6;
-  --text-primary: #1a1a2e;
-  --text-body: #374151;
-  --text-muted: #6b7280;
-  --text-very-muted: #9ca3af;
-  --border: #e5e7eb;
-  --bg-accent: #eef2ff;
-  --text-accent: #6366f1;
-  --bg-warning: #fffbeb;
-  --border-warning: #fde68a;
-  --text-warning: #d97706;
-  --bg-success: #d1fae5;
-  --text-success: #059669;
-  --bg-error: #fee2e2;
-  --text-error: #dc2626;
+  --bg-subtle: #f5f0e8;
+  --text-primary: #3d2b1f;
+  --text-body: #5c4033;
+  --text-muted: #9c7e6e;
+  --text-very-muted: #bfa899;
+  --border: #e8ddd3;
+  --bg-accent: #f3ebe0;
+  --text-accent: #8b6e4e;
+  --bg-warning: #fdf6ec;
+  --border-warning: #e8cfa0;
+  --text-warning: #a0783a;
+  --bg-success: #edf5ee;
+  --text-success: #4a8c5c;
+  --bg-error: #fdf0ee;
+  --text-error: #b85c4a;
 }
 
 [data-theme="dark"] {
-  --bg-app: #0f0f17;
-  --bg-card: #1c1c2e;
-  --bg-subtle: #252538;
-  --text-primary: #f1f1f5;
-  --text-body: #c9d1d9;
-  --text-muted: #8b949e;
-  --text-very-muted: #6e7681;
-  --border: #30304a;
-  --bg-accent: #1e1b4b;
-  --text-accent: #818cf8;
-  --bg-warning: #2d2000;
-  --border-warning: #92400e;
-  --text-warning: #fbbf24;
-  --bg-success: #052e16;
-  --text-success: #34d399;
-  --bg-error: #2d0a0a;
-  --text-error: #f87171;
+  --bg-app: #1e1a16;
+  --bg-card: #2a2420;
+  --bg-subtle: #332d28;
+  --text-primary: #f0e8df;
+  --text-body: #d4c4b8;
+  --text-muted: #9c8478;
+  --text-very-muted: #6e5e54;
+  --border: #3d3530;
+  --bg-accent: #2e2520;
+  --text-accent: #c9a98a;
+  --bg-warning: #2a2010;
+  --border-warning: #6e4e20;
+  --text-warning: #d4a055;
+  --bg-success: #142018;
+  --text-success: #6ab87e;
+  --bg-error: #261510;
+  --text-error: #d47a68;
 }
 
 body {
   margin: 0;
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", system-ui, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-body);
