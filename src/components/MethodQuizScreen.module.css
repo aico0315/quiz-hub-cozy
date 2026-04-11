@@ -34,6 +34,20 @@
   color: var(--text-primary);
 }
 
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-top: -0.75rem;
+}
+
+.breadcrumbSep {
+  color: var(--text-very-muted);
+}
+
 .progressRow {
   text-align: center;
 }
@@ -203,9 +217,9 @@
 }
 
 .supplementCode {
-  background: #2a2018;
-  color: #e8d5b8;
-  border-radius: 10px;
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border-radius: 8px;
   padding: 0.7rem 1rem;
   margin: 0.3rem 0 0.5rem;
   font-size: 0.82rem;
